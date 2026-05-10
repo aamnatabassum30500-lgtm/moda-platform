@@ -24,8 +24,8 @@
         <div class="max-w-4xl mx-auto">
             <h2 class="text-3xl font-bold mb-6 border-b-2 border-indigo-500 inline-block">Our Story</h2>
             <p class="text-lg leading-relaxed text-slate-700">
-                I am the founder of MODA, an aspiring entrepreneur in the fashion industry. 
-                As a student focused on the intersection of technology and style, I noticed a major gap in the market for inclusive, customizable clothing. 
+                I am Aamna aka the founder of MODA, an aspiring entrepreneur in the fashion industry. 
+                As a student of ADIS in Abu dhabi focused on the intersection of technology and style, I noticed a major gap in the market for inclusive, customizable clothing. 
                 MODA was born to solve these ethical friction points, ensuring everyone has access to high-quality, culturally respectful fashion.
             </p>
         </div>
@@ -56,7 +56,7 @@
 
     <section class="py-20 px-6 bg-indigo-900 text-white text-center">
         <h2 class="text-3xl font-bold mb-6">Ready for the Revolution?</h2>
-        <a href="mailto:hello@moda-style.com" class="inline-block bg-white text-indigo-900 px-8 py-4 rounded-full font-bold hover:bg-slate-100 transition">Contact Us</a>
+        <a href="mailto:hello@moda-style.com" class="inline-block bg-white text-indigo-900 px-8 py-4 rounded-full font-bold hover:bg-slate-100 transition">Contact Us on Moda@gmail.com</a>
     </section>
 
 </body>
