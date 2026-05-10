@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODA | Design Your Future</title>
+    <style>
+        /* LUXURY COLOR PALETTE */
+        :root {
+            --lavender: #E6E6FA;
+            --gold: #D4AF37;
+            --deep-purple: #4B0082;
+            --soft-white: #FBFAFF;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Didot', 'Playfair Display', serif;
+            background-color: var(--soft-white);
+            color: var(--deep-purple);
+            overflow-x: hidden;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--lavender) 0%, #fff 100%);
+            padding: 20px;
+        }
+
+        .logo-m {
+            font-size: 80px;
+            color: var(--gold);
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        p.tagline {
+            font-style: italic;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            opacity: 0.8;
+            margin-bottom: 40px;
+        }
+
+        /* ELEGANT BUTTON */
+        .btn {
+            padding: 15px 40px;
+            border: 1px solid var(--gold);
+            background: transparent;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .btn:hover {
+            background: var(--gold);
+            color: white;
+            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
+        }
+
+        /* SECTION STYLING */
+        .content-section {
+            padding: 100px 10% ;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            padding: 40px;
+            border-radius: 5px;
+        }
+
+        h2 { font-size: 2rem; margin-bottom: 20px; color: var(--gold); }
+
+        /* ANIMATION */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .content-section { grid-template-columns: 1fr; }
+            h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="logo-m">M</div>
+        <h1>MODA</h1>
+        <p class="tagline">Perfect Fit. Perfect Style. Perfect You.</p>
+        <a href="#" class="btn">Start Your Design</a>
+    </section>
+
+    <section class="content-section">
+        <div class="glass-card">
+            <h2>The Measurement Vault</h2>
+            <p>Our AI technology ensures your garment fits your unique body perfectly, every single time. No more standard sizes—just your size.</p>
+        </div>
+        <div class="glass-card">
+            <h2>Cultural Elegance</h2>
+            <p>Bespoke fashion that respects your culture and values. From high-fashion hijabs to inclusive evening gowns.</p>
+        </div>
+    </section>
+
+</body>
+</html>
